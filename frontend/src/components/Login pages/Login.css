@@ -1,0 +1,128 @@
+/* Login.css */
+.body1 {
+    background-color: #000;
+    color: #0f0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url("E:\4SVS\frontend\src\image\black-background-with-white-lines-numbers_877928-170.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  .back{
+    font-size: 18px;
+    width: 15px;
+    height: 15px;
+  }
+  .p{
+    color: #0f0 !important;
+  }
+  .h1 {
+    color: #0f0 !important;
+    text-decoration: underline !important;
+  }
+  
+  .navbar {
+    background-color: #000;
+  }
+  
+  .head {
+    justify-content: center !important;
+  }
+  
+  .text-danger {
+    color: #f00 !important;
+    text-decoration: underline;
+  }
+  
+  .login-container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #000;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+  }
+  
+  .login-container:hover {
+    transform: scale(1.05);
+  }
+  
+  .login-header {
+    margin-bottom: 30px;
+  }
+  
+  .login-form {
+    margin-bottom: 20px;
+  }
+  
+  .form-label,
+  .form-control,
+  .btn-danger {
+    transition: all 0.3s ease;
+    color: #0f0;
+  }
+  
+  .form-label:hover,
+  .form-control:hover,
+  .btn-danger:hover {
+    color: #f00;
+  }
+  
+  .security-message {
+    font-size: 1.2em;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+  }
+  
+  .btn-danger {
+    background-color: #f00;
+    border-color: #f00;
+  }
+  
+  .btn-danger:hover {
+    background-color: #800;
+    border-color: #800;
+  }
+  
+  .footer {
+    background-color: #000000c6;
+    padding: 10px 0;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Customize input styles */
+  form-control {
+    background-color: #000;
+    color: #f00;
+    border: 2px solid #0f0;
+  }
+  
+  .form-control:focus {
+    background-color: #000; /* Set background color to black on focus */
+    color: #f00; /* Set text color to red on focus */
+    border-color: rgb(0, 8, 236);
+    box-shadow: 0 0 10px #f00;
+  }
+  .form-control:not(:focus) {
+    background-color: #000;
+    color: #f00;
+    border: 1px solid rgb(255, 255, 255);
+  }
+  .typing-animation {
+    margin-bottom: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid #0f0;
+    animation: typing 3s steps(40, end) infinite, blink-caret 0.75s step-end infinite;
+    box-shadow: 0 0 10px green; /* Add red box shadow */
+
+  }

@@ -1,0 +1,147 @@
+/* HomePage.css */
+.body {
+    background-image: url("E:\4SVS\frontend\src\image\vecteezy_cyber-hacker-attack-background-skull-vector_ (1).jpg");
+    color: #0f0;
+    background-size: contain;
+    overflow: hidden;
+}
+
+.hacker-container {
+    height: 84.9vh;
+    display: flex;
+    padding: 0px 124px;
+    align-items: center;
+    justify-content: flex-start!important;
+
+    
+}
+
+.head {
+    justify-content: center !important;
+}
+
+.text-danger {
+    color: #f00 !important;
+    text-decoration: underline;
+}
+
+.hacker-content {
+    max-width: 600px;
+}
+
+.hacker-heading {
+    font-size: 3em;
+    color: #f00;
+    text-shadow: 2px 2px 4px #0f0;
+}
+
+
+
+.hacker-subtext {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+nav {
+    background-color: #000000c7;
+}
+
+.h1 {
+    font-size: 30px;
+}
+
+.btn-danger {
+    background-color: #f00;
+    border-color: #f00;
+}
+
+.btn-success {
+    background-color: #0f0;
+    border-color: #0f0;
+}
+
+.footer {
+    background-color: #212529db;
+    padding: 10px 0;
+    color: #fff;
+}
+
+.black {
+    background-color: rgba(0, 0, 0, 0.619);
+    height: auto;
+    margin-left: 0; /* Set margin-left to 0 to align with the left side */
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  
+  .hacker-content h2 {
+    font-size: 2.3em;
+    color: #0f0;
+    text-shadow: 7px 2px 10px rgb(255, 0, 0);
+    text-decoration: underline;
+  }
+  .red{
+    color:#f00
+  }
+  .hacker-content p {
+    font-size: 1.2em;
+  }
+  
+  .btn-group {
+    margin-top: 20px; /* Adjust margin for better separation */
+  }
+  
+  .btn {
+    font-size: 1.2em; /* Adjust button font size */
+    padding: 10px 20px; /* Add padding for better button appearance */
+  }
+  
+  .btn-danger {
+    background-color: #f00;
+    border-color: #f00;
+  }
+  
+  .btn-success {
+    background-color: #0f0;
+    border-color: #0f0;
+  }
+  /* AnimationSteps.css */
+.animation-container {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .typing-animation {
+    margin-bottom: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid #0f0;
+    animation: typing 3s steps(40, end) infinite, blink-caret 0.75s step-end infinite;
+    box-shadow: 0 0 10px red; /* Add red box shadow */
+
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #0f0;
+    }
+  }
+  
+  .step {
+    color: #0f0;
+    margin-right: 5px;
+  }
+  

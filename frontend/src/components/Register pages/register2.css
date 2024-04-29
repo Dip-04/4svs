@@ -1,0 +1,45 @@
+/* BiometricVerification.css */
+/* Add styles for BiometricVerification component */
+
+.body4 {
+    background-color: #000;
+    color: #0f0;
+    margin: 0;
+    padding: 0;
+    background-image: url("E:\4SVS\frontend\src\image\Awesome Red Hacker Wallpapers - WallpaperAccess.jpeg");
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    background-size: cover;
+  }
+  
+  .biometric-verification-container {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+  }
+  .register-container {
+    max-height: 76%;
+
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #000;
+    color: rgb(25, 0, 255);
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0 0 12px #0f0;
+  }
+  .biometric-verification-header {
+    margin-bottom: 30px;
+  }
+  
+  .biometric-icon {
+    font-size: 4em;
+    color: #0f0;
+  }
+
+  
+  .back-btn {
+    margin-top: 20px;
+  }
+  

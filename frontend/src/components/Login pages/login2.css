@@ -1,0 +1,83 @@
+/* ColorSelection.css */
+/* Add styles for ColorSelection component */
+
+
+.body5 {
+    background-color: #000;
+    color: #0f0;
+    margin: 0;
+    padding: 0;
+    background-image: url("E:\4SVS\frontend\src\image\Understanding the Conscious & Subconscious Mind with Bruce Lipton – Part 1 - Fractal Enlightenment.jpeg");
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    background-size: cover;
+  }
+  .register-container {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .color-selection-header {
+    margin-bottom: 30px;
+  }
+  
+  .color-options {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .color-option {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+ 
+  
+  .red {
+    background-color: #f00;
+  }
+  
+  .blue {
+    background-color: #00f;
+  }
+  
+  .green {
+    background-color: #0f0;
+  }
+  
+  /* Add border effect on selected color */
+  .red input:checked + span {
+    border: 2px solid #000;
+  }
+  
+  .blue input:checked + span {
+    border: 2px solid #000;
+  }
+  
+  .green input:checked + span {
+    border: 2px solid #000;
+  }
+  
+  .btn-lg {
+    margin-top: 20px;
+  }
+  
+  .back-btn {
+    margin-top: 20px;
+  }
+  .register-container {
+    max-height: 76%;
+
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #000;
+    color: rgb(25, 0, 255);
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgb(255, 0, 0);
+  }
